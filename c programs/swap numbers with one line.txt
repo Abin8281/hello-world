@@ -1,0 +1,14 @@
+//swap numbers with one line
+#include <stdio.h>
+
+int main()
+{
+    int num1,num2;
+    printf("enter the numbers :");
+    scanf("%d %d",&num1,&num2);
+    printf("before the swap num1:%d and num2:%d\n",num1,num2);
+    num2 =num1+num2-(num1=num2);
+    printf("after the swap num1:%d and num2:%d\n",num1,num2);
+
+    return 0;
+}
