@@ -17,8 +17,8 @@ void main()
         }
         if(m!=n)
         {
-            num = num^i<<1;
-            num = num^j<<1;
+            num = num^1<<i;
+            num = num^1<<j;
         }
     }
         printf("after swap \n");
