@@ -3,9 +3,11 @@ void main()
 {
     int a[5],l=0,sl=0,i,ele;
     ele=sizeof(a)/sizeof(a[0]);
+
     printf("enter the elements");
     for(int i =0;i<ele;i++)
     scanf("%d",&a[i]);
+    
     printf("\nthe elements are:\n");
     for(int i =0;i<ele;i++)
     printf("%d ",a[i]);
