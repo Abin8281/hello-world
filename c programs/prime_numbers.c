@@ -1,4 +1,4 @@
-// to find prime number
+// to find prime number,prime number is divisors 1 and number itself only
 #include <stdio.h>
 
 int main()
