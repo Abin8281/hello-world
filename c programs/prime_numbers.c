@@ -1,4 +1,5 @@
 // to find prime number
+//A prime number is a whole number greater than 1 that has only two factors: 1 and itself.
 #include <stdio.h>
 
 int main()
