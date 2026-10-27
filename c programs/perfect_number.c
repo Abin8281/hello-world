@@ -1,3 +1,4 @@
+//perfect number means sum of divisors equal to number
 #include<stdio.h>
 void main()
 {
